@@ -1,0 +1,40 @@
+body::before {
+  display: block;
+  content: '';
+  height: 40px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #212529!important; 
+  
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(108, 117, 125) !important; 
+} 
+
+.modal-body p,
+.modal-body label,
+.form-floating>label {
+  color: black;
+}
+
+.form-floating>label {
+  padding-left: 30px!important;
+}
+
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+  
